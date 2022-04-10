@@ -33,7 +33,51 @@ public int rred() {
                 }
 
                 public int rredvd() {
-                    return 2;
+                    final Integer[] egzsiu = {new len(abcde).len};
+                    final int[] fge = {-1};
+
+                    class dfvshjb implements Runnable {
+
+boolean b;
+int fz;
+
+                        public dfvshjb(char c, int zfd) {
+                            super();
+                            if (c == '9') {
+                                b = true;
+                            }
+                            else {
+                                b = false;
+                            }
+                            fz = zfd;}
+
+                        public void run() {
+
+                            if (b) {
+                                if (fge[0] == -1 || fz < fge[0]) {
+                                    fge[0] = fz;
+                                }
+                            }
+                            egzsiu[0]--;
+                        }
+                    }
+
+                    for (int i = 0; i < egzsiu[0]; i++) {
+                        new Thread(new dfvshjb(abcde.charAt(i), i)).start();
+                    }
+
+                    while (true) {
+                        try {
+                            Thread.sleep(1);
+                            if (egzsiu[0] == 0) {
+                                break;
+                            }
+                        } catch (InterruptedException e) {
+
+                        }
+                    }
+
+                    return fge[0];
                 }
             }
         }
@@ -41,4 +85,21 @@ public int rred() {
         a a = new a(le_jardin_de_mamie);
         return a.rred();
     }
+}
+
+class len {
+    public int len = 0;
+
+    public len(String str) {
+        try {
+            while (true) {
+                str.charAt(len);
+                len++;
+            }
+        } catch (Exception e) {
+
+        }
+    }
+
+
 }
