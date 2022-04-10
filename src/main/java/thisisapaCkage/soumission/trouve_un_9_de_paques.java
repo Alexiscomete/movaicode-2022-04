@@ -2,10 +2,6 @@ package thisisapaCkage.soumission;
 
 public abstract class trouve_un_9_de_paques {
 
-    static {
-        System.out.println("Voici un code");
-    }
-
     public static int trouve_un_9_de_paques(String le_jardin_de_mamie) {
 
         class a {

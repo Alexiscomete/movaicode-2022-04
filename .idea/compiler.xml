@@ -9,8 +9,8 @@
         <module name="movaicode-2022-04" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
-      <module name="movaicode-2022-04" target="1.5" />
+    <bytecodeTargetLevel target="17">
+      <module name="movaicode-2022-04" target="17" />
     </bytecodeTargetLevel>
   </component>
 </project>
