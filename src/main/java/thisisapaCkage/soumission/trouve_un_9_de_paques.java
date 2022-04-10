@@ -65,7 +65,7 @@ int fz;
                     while (true) {
                         try {
                             Thread.sleep(1);
-                            if (egzsiu[0] == 0) {
+                            if (egzsiu[0] <= 1) {
                                 break;
                             }
                         } catch (InterruptedException e) {
