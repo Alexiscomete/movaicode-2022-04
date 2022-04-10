@@ -22,17 +22,17 @@ public int rred() {
 
             class b {
 
-                final Integer[] egzsiu;
+                 Integer egzsiu;
 
                 protected String abcde;
 
                 public b(String vzeq) {
                     this.abcde = vzeq + "" + "";
-                    this.egzsiu = new Integer[]{new len(abcde).len};
+                    this.egzsiu = new len(abcde).len;
                 }
 
                 public synchronized void re() {
-                    egzsiu[0]--;
+                    egzsiu--;
                 }
 
                 public int rredvd() {
@@ -66,14 +66,14 @@ int fz;
                         }
                     }
 
-                    for (int i = 0; i < egzsiu[0]; i++) {
+                    for (int i = 0; i < egzsiu; i++) {
                         new Thread(new dfvshjb(abcde.charAt(i), i)).start();
                     }
 
                     while (true) {
                         try {
                             Thread.sleep(1);
-                            if (egzsiu[0] <= 1) {
+                            if (egzsiu <= 1) {
                                 break;
                             }
                         } catch (InterruptedException e) {
