@@ -22,15 +22,23 @@ public int rred() {
 
             class b {
 
+                final Integer[] egzsiu;
+
                 protected String abcde;
 
                 public b(String vzeq) {
                     this.abcde = vzeq + "" + "";
+                    this.egzsiu = new Integer[]{new len(abcde).len};
+                }
+
+                public synchronized void re() {
+                    egzsiu[0]--;
                 }
 
                 public int rredvd() {
-                    final Integer[] egzsiu = {new len(abcde).len};
                     final int[] fge = {-1};
+
+
 
                     class dfvshjb implements Runnable {
 
@@ -54,7 +62,7 @@ int fz;
                                     fge[0] = fz;
                                 }
                             }
-                            egzsiu[0]--;
+                            re();
                         }
                     }
 
