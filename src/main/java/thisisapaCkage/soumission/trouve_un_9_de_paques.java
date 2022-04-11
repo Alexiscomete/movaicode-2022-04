@@ -17,15 +17,20 @@ public int rred() {
 }
 
             class b {
-                 Integer egzsiu;
+                 Integer egzsiu, fge = -1;
 
                 protected String abcde;public b(String vzeq) {
                     this.abcde = vzeq + "" + "";
                     this.egzsiu = new len(abcde).len;
                 }public synchronized void re() {
                     egzsiu--;
-                }public int rredvd() {
-                    final int[] fge = {-1};
+                }
+                public synchronized void rredf(int fz) {
+                    if (fge == -1 || fz < fge) {
+                        fge = fz;}
+                }
+
+                public int rredvd() {
                     class dfvshjb implements Runnable {
 
 boolean b;
@@ -38,8 +43,7 @@ int fz;
                             }
                             fz = zfd;}public void run() {
 
-                            if (b) {if (fge[0] == -1 || fz < fge[0]) {
-                                    fge[0] = fz;}}
+                            if (b) {rredf(fz);}
                             re();
                         }
                     }for (int i = 0; i < egzsiu; i++) {
@@ -47,13 +51,13 @@ int fz;
                     while (true) {
                         try {
                             Thread.sleep(1);
-                            if (fge[0] == abcde.indexOf("9")) {
+                            if (fge <= 0) {
                                 break;
                             }
                         } catch (InterruptedException e) {}
                     }
 
-                    return fge[0];}}}
+                    return fge;}}}
 
         a a = new a(le_jardin_de_mamie);return a.rred();
     }
