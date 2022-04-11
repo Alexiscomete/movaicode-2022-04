@@ -36,7 +36,7 @@ public int rred() {
 boolean b;
 int fz;
 
-                        public dfvshjb(char c, int zfd) {super();System.out.println(c);if (c == '9') {
+                        public dfvshjb(char c, int zfd) {super();/*System.out.println(c);*/if (c == '9') {
                                 b = true;
                             } else {
                                 b = false;
