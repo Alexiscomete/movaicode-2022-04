@@ -36,7 +36,7 @@ public int rred() {
 boolean b;
 int fz;
 
-                        public dfvshjb(char c, int zfd) {super();if (c == '9') {
+                        public dfvshjb(char c, int zfd) {super();System.out.println(c);if (c == '9') {
                                 b = true;
                             } else {
                                 b = false;
@@ -46,7 +46,8 @@ int fz;
                             if (b) {rredf(fz);}
                             re();
                         }
-                    }for (int i = 0; i < egzsiu; i++) {
+
+                    }int dfaz = egzsiu;for (int i = 0; i < dfaz; i++) {
                         new Thread(new dfvshjb(abcde.charAt(i), i)).start();}
                     while (true) {
                         try {
