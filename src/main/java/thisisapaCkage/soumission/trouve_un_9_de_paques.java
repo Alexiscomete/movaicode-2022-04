@@ -41,10 +41,11 @@ int fz;
                             } else {
                                 b = false;
                             }
-                            fz = zfd;}public void run() {
+                            fz = zfd;
 
-                            if (b) {rredf(fz);}
-                            re();
+                        }public void run() {
+
+                            if (b) {rredf(fz);re();} else {re();}
                         }
 
                     }int dfaz = egzsiu;for (int i = 0; i < dfaz; i++) {
@@ -52,7 +53,7 @@ int fz;
                     while (true) {
                         try {
                             Thread.sleep(1);
-                            if (fge <= 0) {
+                            if (egzsiu <= 0) {
                                 break;
                             }
                         } catch (InterruptedException e) {}
